@@ -1,0 +1,109 @@
+/* ----------- jumbotron ------------- */
+.jumbotron {
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#03a9f4), to(#3e1186));
+  background: linear-gradient(to bottom, #03a9f4 0%, #3e1186 100%);
+  margin-bottom: 0;
+}
+.jumbotron h1 {
+  margin-top: 0;
+  margin-bottom: 60px;
+  padding-bottom: 25px;
+  color: #fff;
+  font-size: 43px;
+  line-height: 63px;
+  font-weight: 500;
+  letter-spacing: .5px;
+  text-align: center;
+}
+.jumbotron-sub1 {
+  margin-top: 122px;
+  margin-bottom: 100px;
+}
+.jumbotron-sub1 p {
+  text-align: center;
+}
+/* ----------- end-jumbotron ------------- */
+/* ------------ timeline -------------- */
+.timeline {
+  padding: 80px 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f2f6fa));
+  background-image: linear-gradient(180deg, #fff, #f2f6fa);
+}
+.timeline h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 14px;
+  color: #02172d;
+  font-size: 40px;
+  line-height: 53px;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+.timeline h3 {
+  color: #03a9f4;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.timeline .timeline-img {
+  margin: 40px auto;
+}
+.timeline .timeline-img img {
+  width: 100%;
+}
+/* ------------ end-timeline -------------- */
+/* -------------- team -------------- */
+.team {
+  padding: 60px 0;
+}
+.team .team-title {
+  margin: 0;
+  padding-top: 14px;
+  color: #02172d;
+  font-size: 40px;
+  line-height: 53px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  text-align: center;
+}
+.team .team-p {
+  display: block;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  text-align: center;
+  color: #3e3e3e;
+  font-size: 18px;
+  line-height: 30px;
+}
+.team .people .people-item {
+  margin: 20px auto;
+  text-align: center;
+}
+.team .people .people-item .team-header {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  text-align: center;
+  margin: 20px auto;
+}
+.team .people .people-item .team-header img {
+  width: 100%;
+}
+.team .people .people-item .content h3 {
+  padding-bottom: 6px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #03a9f4;
+}
+.team .people .people-item .content p {
+  color: #3e3e3e;
+  font-size: 20px;
+  line-height: 30px;
+}
+/* -------------- end-team -------------- */

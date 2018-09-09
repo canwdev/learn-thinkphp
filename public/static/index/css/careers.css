@@ -1,0 +1,144 @@
+/* ----------- jumbotron ------------- */
+.jumbotron {
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#03a9f4), to(#E91E63));
+  background: linear-gradient(to bottom, #03a9f4 0%, #E91E63 100%);
+  margin-bottom: 0;
+}
+.jumbotron .jumbotron-sub1 {
+  margin-top: 122px;
+  margin-bottom: 122px;
+  text-align: center;
+  text-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.22);
+}
+.jumbotron .jumbotron-sub1 h1 {
+  margin-top: 0;
+  margin-bottom: 80px;
+  padding-top: 14px;
+  color: #fff;
+  font-size: 40px;
+  line-height: 53px;
+  font-weight: 300;
+  letter-spacing: .5px;
+}
+.jumbotron .jumbotron-sub1 h2 {
+  padding-top: 5px;
+  color: #fff;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.jumbotron .jumbotron-sub1 p {
+  margin-bottom: 0;
+  padding-top: 40px;
+  padding-bottom: 35px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+}
+.jumbotron .jumbotron-sub1 a {
+  font-weight: bold;
+  font-size: 20px;
+}
+/* ----------- end-jumbotron ------------- */
+/* ----------- careers1 ------------- */
+.careers1 {
+  padding: 60px 0;
+}
+.careers1 .careers1-img img {
+  width: 100%;
+}
+.careers1 .careers1-main {
+  padding-top: 80px;
+}
+.careers1 .careers1-main h1 {
+  color: #02172d;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 14px;
+  font-size: 40px;
+  line-height: 53px;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+.careers1 .careers1-main p {
+  margin-bottom: 0;
+  padding-top: 40px;
+  padding-bottom: 35px;
+  font-size: 18px;
+  line-height: 30px;
+}
+/* ----------- end-careers1 ------------- */
+/* ----------- careers2 ------------- */
+.careers2 {
+  padding: 60px 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f2f6fa));
+  background-image: linear-gradient(180deg, #fff, #f2f6fa);
+}
+.careers2 .careers2-main {
+  text-align: center;
+}
+.careers2 .careers2-main h1 {
+  color: #02172d;
+  margin-top: 0;
+  margin-bottom: 60px;
+  padding-top: 14px;
+  font-size: 40px;
+  line-height: 53px;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+.careers2 .careers2-main p {
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  line-height: 30px;
+}
+/* ----------- end-careers2 ------------- */
+/* ----------- careers3 ------------- */
+.careers3 {
+  padding: 60px 0;
+}
+.careers3 .lefttext {
+  text-align: center;
+}
+.careers3 .lefttext h1 {
+  color: #02172d;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-top: 14px;
+  font-size: 40px;
+  line-height: 53px;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+.careers3 .righttext {
+  border-left: 1px solid #888888;
+  padding-left: 100px;
+}
+.careers3 .righttext a {
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+}
+/* ----------- end-careers3 ------------- */
+/* ========== resonsive =========== */
+@media only screen and (max-width: 425px) {
+  .careers1 .careers1-main {
+    padding-top: 20px;
+  }
+  .careers3 .lefttext h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .careers3 .righttext {
+    border-left: 1px solid #333;
+    padding-left: 20px;
+  }
+}
+/* ========== end-resonsive =========== */
