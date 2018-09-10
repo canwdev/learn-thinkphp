@@ -13,10 +13,21 @@
 
             <!-- Page Content -->
             <div class="page-content">
-                {include file="components/breadcrumbs" /}
+                <!-- Page Breadcrumb -->
+                <div class="page-breadcrumbs">
+                    <ul class="breadcrumb">
+                        <li class="active">控制面板</li>
+                    </ul>
+                </div>
+                <!-- /Page Breadcrumb -->
                 <!-- Page Body -->
                 <div class="page-body">
                     <h1>后台管理系统</h1>
+                    <p>请从左侧菜单栏选择相应操作</p>
+                    <h1>___</h1>
+                    <p>PHP 版本：<?php echo PHP_VERSION;?></p>
+                    <p>ThinkPHP 版本：{$Think.version}</p>
+                    
                 </div>
             </div>
             <!-- /Page Body -->
