@@ -1,7 +1,9 @@
 <?php
 namespace app\admin\controller;
+use think\Controller;
+use app\admin\model\Admin as AdminModel;
 
-class Admin
+class Admin extends Controller
 {
     public function lst()
     {
@@ -14,8 +16,13 @@ class Admin
             $data = input('post.');
 
             $this->console($data);
+            
             // 在表admin中插入数据,成功一般返回1
-            $ret = db('admin')->insert($data);
+            // $ret = db('admin')->insert($data);
+
+            // 使用model模型层操作数据
+            $admin = new AdminModel();
+            $ret = $admin->addAdmin($data);
 
             if ($ret) {
                 $this->success('添加管理员成功！', url('lst'));
