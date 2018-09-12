@@ -9,6 +9,15 @@ class Admin extends Controller
 {
     public function lst()
     {
+        // 查询数据库
+        $ret = db('admin')->field('name')->select();
+        $this->console($ret);
+
+        foreach ($ret as $key => $value) {
+            echo $key;
+            echo '<br>';
+        }
+
         return view('list');
     }
 
