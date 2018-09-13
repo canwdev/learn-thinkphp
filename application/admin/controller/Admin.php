@@ -11,13 +11,10 @@ class Admin extends Controller
     public function lst()
     {
         // 查询数据库
-        $ret = db('admin')->field('name')->select();
+        $ret = db('admin')->field(array('id','name'))->select();
         $this->console($ret);
 
-        foreach ($ret as $key => $value) {
-            echo $key;
-            echo '<br>';
-        }
+        $this->assign('adminList',$ret);
 
         return view('list');
     }
