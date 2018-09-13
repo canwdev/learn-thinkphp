@@ -3,12 +3,14 @@
 namespace app\admin\controller;
 
 use think\Controller;
+
 use app\admin\model\Admin as AdminModel;
 
 class Admin extends Controller
 {
     public function lst()
     {
+
         return view('list');
     }
 
