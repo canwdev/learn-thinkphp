@@ -5,3 +5,10 @@
 .page-sidebar .sidebar-header-wrapper .searchicon {
   color: #4CAF50;
 }
+
+.can-pager-wrap {
+  margin: 10px auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
